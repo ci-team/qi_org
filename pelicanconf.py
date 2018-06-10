@@ -39,6 +39,9 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS=['images']
 THEME='themes/qi'
 
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['summary']
+
 MARKDOWN = {
     'extensions': ['codehilite(css_class=highlight)',
                    'extra',
