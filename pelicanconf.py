@@ -36,3 +36,10 @@ DEFAULT_PAGINATION = 10
 
 STATIC_PATHS=['images']
 THEME='themes/qi'
+
+MARKDOWN = {
+    'extensions': ['codehilite(css_class=highlight)',
+                   'extra',
+                   'admonition',
+    ]
+}
