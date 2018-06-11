@@ -8,6 +8,8 @@ category: CI Book
 link: https://quantum-integration.org/topic/17/docker-registry-infrastructure
 ---
 
+[TOC]
+
 Once you get exposed to the Cloud, DevOps and Everything As A Service world, you realize that almost every piece of software you might need has already been written by someone (or provided as a service). Why is not it all rainbows and unicorns then?
 
 <!-- PELICAN_END_SUMMARY -->

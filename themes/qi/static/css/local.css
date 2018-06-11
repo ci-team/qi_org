@@ -77,6 +77,13 @@ pre {
   }
 }
 
+@media (max-width: 992px) {
+    .affix {
+	display: hidden;
+	/* position: static; */
+    }
+}
+
 .my-list-style {
     margin-left: 0;
 }

@@ -40,11 +40,12 @@ STATIC_PATHS=['images']
 THEME='themes/qi'
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['summary']
+PLUGINS = ['summary','extract_toc']
 
 MARKDOWN = {
     'extensions': ['codehilite(css_class=highlight)',
                    'extra',
                    'admonition',
+                   'toc',
     ]
 }

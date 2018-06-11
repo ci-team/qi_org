@@ -35,3 +35,11 @@
 	{% include 'disqus.html' %}
 </div>
 {% endblock %}
+{% block sidebar %}
+	      {% if article.toc %}
+	      <h4>Table of contents</h4>
+	      <nav class="toc">
+		{{ article.toc }}
+	      </nav>
+	      {% endif %}
+{% endblock %}
