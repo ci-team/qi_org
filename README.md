@@ -3,7 +3,7 @@
 
     $ virtualenv -p python3 venv
     $ source venv/bin/activate
-    $ pip install pelican
+    $ pip install -r requirements.txt
     $ ./develop_server.sh start
 
 ## Notes
