@@ -19,16 +19,17 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
+LINKS = ()
 # Social widget
 SOCIAL = (
-        ('You can add links in your config file', '#', 'fab fa-twitter'),
-        ('Another social link', '#', 'fab fa-guthub'),
+        ('@QI_org', 'https://twitter.com/qi_org', 'fab fa-twitter'),
+        ('ci-team/qi_org.git', 'https://github.com/ci-team/qi_org', 'fab fa-github'),
+        ('Quantum Integration', '#', 'fab fa-medium'),
+)
+
+MENUITEMS = (
+    ('Home', '/'),
+    ('About','/about.html'),
 )
 
 DEFAULT_PAGINATION = 10
