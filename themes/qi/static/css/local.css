@@ -57,14 +57,21 @@
 body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    color: #0f2a4d;
+    color: #233b5a;
+
 }
 
 pre {
- color: #12233b;
+    color: #233b5a;
+    border: none;
+    border-radius: 0;
+    background-color: #e8eeff;
 
 }
 
+img {
+    width: 100%;
+}
 
 .page-header h1 {
   font-family: "Saira", sans-serif;
@@ -89,7 +96,8 @@ pre {
 }
 
 .aw-bottom {
-    padding: 2em;
+    font-size: smaller;
+    padding-top: 0.5em;
 }
 
 .aw-footer {
@@ -122,83 +130,4 @@ pre {
 
 .article-header {
     margin-bottom: 1em;
-}
-
-/**
- * Overrides of notebook CSS for static HTML export
-**/
-div.entry-content {
-	overflow: visible;
-	padding: 8px;
-}
-
-.inner_cell {
-	width: 100%;
-}
-
-.input_area {
-	padding: 0.2em;
-}
-
-a.heading-anchor {
-	white-space: normal;
-}
-
-.rendered_html code {
-	font-size: .8em;
-}
-
-pre.ipynb {
-	color: black;
-	background: #f7f7f7;
-	border: none;
-	box-shadow: none;
-	margin-bottom: 0;
-	padding: 0;
-	margin: 0px;
-	font-size: 13px;
-}
-
-/* remove the prompt div from text cells */
-.prompt {
-	display: none;
-}
-
-/* remove horizontal padding from text cells, */
-/* so it aligns with outer body text */
-div.text_cell_render {
-	padding: 0.5em 0em;
-}
-
-img.anim_icon {
-	padding: 0;
-	border: 0;
-	vertical-align: middle;
-	-webkit-box-shadow: none;
-	-box-shadow: none;
-}
-
-div.collapseheader {
-	width: 100%;
-	background-color: #d3d3d3;
-	padding: 2px;
-	cursor: pointer;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-img {
-    max-width: 100%;
-}
-
-.admonition {
-  padding: 9px 9px;
-  font-size: 18px;
-}
-
-.adm-center {
-    text-align: center;
-}
-
-.pagination-centered {
-    text-align: center;
 }
